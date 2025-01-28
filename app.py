@@ -6,6 +6,10 @@ import spacy
 app = Flask(__name__)
 app.config["UPLOAD_FOLDER"] = "uploads"
 
+# Create the 'uploads' directory if it doesn't exist
+if not os.path.exists(app.config["UPLOAD_FOLDER"]):
+    os.makedirs(app.config["UPLOAD_FOLDER"])
+
 # Load spaCy model
 nlp = spacy.load("en_core_web_sm")
 
@@ -57,5 +61,4 @@ def index():
     return render_template("index.html", pos_result=pos_result, color_map=color_map, text=text)
 
 if __name__ == "__main__":
-    os.makedirs(app.config["UPLOAD_FOLDER"], exist_ok=True)
     app.run(debug=True)
