@@ -1,0 +1,21 @@
+# Ignore Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore environment variables
+.env
+
+# Ignore virtual environments
+venv/
+
+# Ignore logs and temporary files
+*.log
+*.sqlite3
+
+# Ignore instance and upload folders
+instance/
+uploads/
+
+# Ignore VS Code settings (optional)
+.vscode/

@@ -1,0 +1,175 @@
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: black; /* Black background */
+    margin: 0;
+    padding: 20px;
+    color: white; /* White text */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Main container */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #333; /* Dark gray container background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+/* Heading styles */
+h1 {
+    color: #7bff00ec; /* Teal color for the heading */
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Textarea styles */
+textarea {
+    width: 100%;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    resize: none;
+    margin-bottom: 20px;
+    background-color: #222; /* Darker textarea background */
+    color: white; /* White text */
+}
+
+/* File upload styles */
+input[type="file"] {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+/* File name display */
+.file-name {
+    font-style: italic;
+    margin-bottom: 20px;
+    color: #ccc; /* Light gray file name */
+}
+
+/* Button styles */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    background-color: #7bff00ec; /* Teal button */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #7bff00ec; /* Darker teal on hover */
+    color: white;
+}
+
+/* Result container */
+.result {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #222; /* Dark background for result */
+    border-radius: 8px;
+    color: white;
+    width: 100%;
+    word-wrap: break-word;
+    line-height: 1.8;
+}
+
+/* POS tags styling */
+.tag {
+    display: inline-block;
+    margin: 5px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    color: black;
+    font-weight: bold;
+}
+
+/* Color coding for tags */
+.tag[data-pos="NOUN"] {
+    background-color: lightblue;
+}
+
+.tag[data-pos="VERB"] {
+    background-color: lightgreen;
+}
+
+.tag[data-pos="ADJ"] {
+    background-color: yellow;
+}
+
+.tag[data-pos="ADV"] {
+    background-color: pink;
+}
+
+.tag[data-pos="PRON"] {
+    background-color: orange;
+}
+
+.tag[data-pos="CONJ"] {
+    background-color: lightgray;
+}
+
+.tag[data-pos="DET"] {
+    background-color: beige;
+}
+
+.tag[data-pos="PROPN"] {
+    background-color: violet;
+}
+
+.tag[data-pos="INTJ"] {
+    background-color: lightcoral;
+}
+
+.tag[data-pos="NUM"] {
+    background-color: khaki;
+}
+
+.tag[data-pos="PUNCT"] {
+    background-color: white;
+}
+
+.tag[data-pos="X"] {
+    background-color: #00ffcc;
+}
+
+/* File name display */
+.file-name {
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+/* Responsive layout */
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    textarea {
+        font-size: 14px;
+    }
+
+    button {
+        font-size: 14px;
+    }
+}
