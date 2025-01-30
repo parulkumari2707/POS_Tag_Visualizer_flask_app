@@ -1,34 +1,29 @@
 # POS Tag Visualizer - Flask Application
-============
 
 ## 📌 Overview
 
 The POS Tag Visualizer is a Flask-based web application that processes text input or uploaded files and visualizes Part-of-Speech (POS) tags in a color-coded format. It uses the spaCy library for POS tagging and provides an interactive interface for users to understand the grammatical structure of their text.
 
----
 ## ✨ Features
 
 ✅  **Interactive POS Tagging**:Enter text directly or upload a .txt file for processing. Visualize POS tags with distinct color codes for easier interpretation.
-
 ✅  **File Upload Support**: Upload text files to analyze and visualize their content.
-
 ✅ **Color-Coded Visualization**: Each POS tag is highlighted with a unique color for quick identification.
-
 ✅ **Flask Framework**: Simple and lightweight backend framework for fast and efficient performance.
---
+
+
 # 🚀 Live Demo
 
 🔗 **Try the live app here:**  [POS Tag Visualizer]: (https://pos-tag-visualizer-flask-app-hik6.onrender.com/)
---
+
 # 🖼 Screenshots
 
 1. Home Page
-![Home Page] ![image](https://github.com/user-attachments/assets/36d7fc29-b9b0-4fba-af22-df78ecf07ab5)
+![image](https://github.com/user-attachments/assets/36d7fc29-b9b0-4fba-af22-df78ecf07ab5)
 
 2. POS Tags Output
-![POS Tags Output] ![image](https://github.com/user-attachments/assets/c3eec852-c6e7-43d6-a012-5359c69b6ce4)
+![image](https://github.com/user-attachments/assets/c3eec852-c6e7-43d6-a012-5359c69b6ce4)
 
---
 # ⚙ Installation Guide
 
 ### Prerequisites
@@ -69,7 +64,7 @@ web: gunicorn app:app
 ```
 5. Deploy the web service.
 For detailed steps, check Render Documentation.
---
+
 ---
 ## 🛠 Technologies Used
 
