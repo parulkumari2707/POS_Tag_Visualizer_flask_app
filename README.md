@@ -27,7 +27,7 @@ The POS Tag Visualizer is a Flask-based web application that processes text inpu
 ### 2️⃣ POS Tags Output  
 ![image](https://github.com/user-attachments/assets/c3eec852-c6e7-43d6-a012-5359c69b6ce4)
 
---
+
 # ⚙ Installation Guide
 
 ### Prerequisites
