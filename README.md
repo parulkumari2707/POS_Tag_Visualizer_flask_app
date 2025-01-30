@@ -87,8 +87,11 @@ This project is licensed under the MIT License.[LICENSE](LICENSE)
 Contributions are welcome! If you'd like to improve this project, follow these steps:
 
 1️⃣ Fork the repository
+
 2️⃣ Create a new branch (feature-branch)
+
 3️⃣ Commit changes (git commit -m "Added new feature")
+
 4️⃣ Push to GitHub and submit a pull request
 
 
