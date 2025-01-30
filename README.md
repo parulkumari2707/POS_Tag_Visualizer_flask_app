@@ -30,12 +30,12 @@ The POS Tag Visualizer is a Flask-based web application that processes text inpu
 
 # ⚙ Installation Guide
 
-### Prerequisites
+# Prerequisites
 
 - Python 3.8 or later
 - `pip` (Python package installer)
 
-### Steps
+# Steps
 
 1. **Clone the repository:**
  ```bash
@@ -54,6 +54,7 @@ python app.py
 
 4. Open the app in your browser at http://127.0.0.1:5000.
 --
+
 ## Deployment Guide
 
 The app is deployed on Render. Follow these steps to deploy your own:
