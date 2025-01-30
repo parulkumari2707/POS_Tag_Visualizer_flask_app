@@ -1,28 +1,20 @@
 # POS Tag Visualizer - Flask Application
 ============
+
 ## 📌 Overview
 
 The POS Tag Visualizer is a Flask-based web application that processes text input or uploaded files and visualizes Part-of-Speech (POS) tags in a color-coded format. It uses the spaCy library for POS tagging and provides an interactive interface for users to understand the grammatical structure of their text.
---
+
+---
 ## ✨ Features
 
-✅  **Interactive POS Tagging**:
+✅  **Interactive POS Tagging**:Enter text directly or upload a .txt file for processing. Visualize POS tags with distinct color codes for easier interpretation.
 
-Enter text directly or upload a .txt file for processing.
+✅  **File Upload Support**: Upload text files to analyze and visualize their content.
 
-Visualize POS tags with distinct color codes for easier interpretation.
+✅ **Color-Coded Visualization**: Each POS tag is highlighted with a unique color for quick identification.
 
-✅  **File Upload Support**:
-
-Upload text files to analyze and visualize their content.
-
-✅ **Color-Coded Visualization**:
-
-Each POS tag is highlighted with a unique color for quick identification.
-
-✅ **Flask Framework**:
-
-Simple and lightweight backend framework for fast and efficient performance.
+✅ **Flask Framework**: Simple and lightweight backend framework for fast and efficient performance.
 --
 # 🚀 Live Demo
 
@@ -68,7 +60,6 @@ python app.py
 The app is deployed on Render. Follow these steps to deploy your own:
 
 # Steps
-
 1. Push your code to GitHub.
 2. Create an account on Render and connect your GitHub repository.
 3. Add the required environment variables (if applicable).
@@ -79,20 +70,19 @@ web: gunicorn app:app
 5. Deploy the web service.
 For detailed steps, check Render Documentation.
 --
-
+---
 ## 🛠 Technologies Used
 
 1. Flask: Backend web framework.
-
 2. spaCy: Natural Language Processing library for POS tagging.
-
 3. Render: Platform for deployment.
-
 4. HTML & CSS: Frontend design.
 
+----
 📝 License
 This project is licensed under the MIT License.[LICENSE](LICENSE)
 
+---
 ## ⭐ Contributing
 Contributions are welcome! If you'd like to improve this project, follow these steps:
 
