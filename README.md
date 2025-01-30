@@ -7,8 +7,11 @@ The POS Tag Visualizer is a Flask-based web application that processes text inpu
 ## ✨ Features
 
 ✅  **Interactive POS Tagging**:Enter text directly or upload a .txt file for processing. Visualize POS tags with distinct color codes for easier interpretation.
+
 ✅  **File Upload Support**: Upload text files to analyze and visualize their content.
+
 ✅ **Color-Coded Visualization**: Each POS tag is highlighted with a unique color for quick identification.
+
 ✅ **Flask Framework**: Simple and lightweight backend framework for fast and efficient performance.
 
 
@@ -18,12 +21,13 @@ The POS Tag Visualizer is a Flask-based web application that processes text inpu
 
 # 🖼 Screenshots
 
-1. Home Page
+### 1️⃣ Home Page
 ![image](https://github.com/user-attachments/assets/36d7fc29-b9b0-4fba-af22-df78ecf07ab5)
 
-2. POS Tags Output
+### 2️⃣ POS Tags Output  
 ![image](https://github.com/user-attachments/assets/c3eec852-c6e7-43d6-a012-5359c69b6ce4)
 
+--
 # ⚙ Installation Guide
 
 ### Prerequisites
@@ -65,7 +69,7 @@ web: gunicorn app:app
 5. Deploy the web service.
 For detailed steps, check Render Documentation.
 
----
+
 ## 🛠 Technologies Used
 
 1. Flask: Backend web framework.
@@ -73,11 +77,11 @@ For detailed steps, check Render Documentation.
 3. Render: Platform for deployment.
 4. HTML & CSS: Frontend design.
 
-----
+
 📝 License
 This project is licensed under the MIT License.[LICENSE](LICENSE)
 
----
+
 ## ⭐ Contributing
 Contributions are welcome! If you'd like to improve this project, follow these steps:
 
