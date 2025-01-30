@@ -1,6 +1,4 @@
-# POS Tag Visualizer - Flask Application
-
-## 📌 Overview
+# **POS Tag Visualizer - Flask Application**
 
 The POS Tag Visualizer is a Flask-based web application that processes text input or uploaded files and visualizes Part-of-Speech (POS) tags in a color-coded format. It uses the spaCy library for POS tagging and provides an interactive interface for users to understand the grammatical structure of their text.
 
@@ -15,20 +13,21 @@ The POS Tag Visualizer is a Flask-based web application that processes text inpu
 ✅ **Flask Framework**: Simple and lightweight backend framework for fast and efficient performance.
 
 
-# 🚀 Live Demo
+## 🚀 Live Demo
 
-🔗 **Try the live app here:**  [POS Tag Visualizer]: (https://pos-tag-visualizer-flask-app-hik6.onrender.com/)
+🔗 **Try the live app here:** (https://pos-tag-visualizer-flask-app-hik6.onrender.com/)
 
-# 🖼 Screenshots
 
-### 1️⃣ Home Page
+## 🖼 Screenshots
+
+#### 1️⃣ Home Page
 ![image](https://github.com/user-attachments/assets/36d7fc29-b9b0-4fba-af22-df78ecf07ab5)
 
-### 2️⃣ POS Tags Output  
+#### 2️⃣ POS Tags Output  
 ![image](https://github.com/user-attachments/assets/c3eec852-c6e7-43d6-a012-5359c69b6ce4)
 
 
-# ⚙ Installation Guide
+## ⚙ Installation Guide
 
 ## Prerequisites
 
@@ -53,20 +52,17 @@ python app.py
 ```
 
 4. Open the app in your browser at http://127.0.0.1:5000.
---
+
 
 ## Deployment Guide
 
 The app is deployed on Render. Follow these steps to deploy your own:
 
-# Steps
+## Steps
 1. Push your code to GitHub.
 2. Create an account on Render and connect your GitHub repository.
 3. Add the required environment variables (if applicable).
-4. Include a Procfile with the following line:
-```bash 
-web: gunicorn app:app
-```
+4. Include a Procfile with the following line: ```bash web: gunicorn app:app ```
 5. Deploy the web service.
 For detailed steps, check Render Documentation.
 
@@ -80,7 +76,7 @@ For detailed steps, check Render Documentation.
 
 
 ## 📝 License
-This project is licensed under the MIT License.[LICENSE](LICENSE)
+This project is licensed under the [MIT LICENSE](LICENSE)
 
 
 ## ⭐ Contributing
